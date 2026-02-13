@@ -1,0 +1,29 @@
+.cards-container {
+  width: 70%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  
+}
+
+.trending {
+  display: flex;
+  gap: 20px;
+  padding: 10px 0;
+  margin-left: 100px;
+    margin-right: 100px;
+}
+@media (max-width: 600px) {
+  .trending {
+    gap: 12px;
+  }
+
+  .trending > div {
+    min-width: 120px;
+    height: 220px;
+    flex-shrink: 0;
+  }
+
+  h1 {
+    font-size: 1.4rem;
+  }
+}
